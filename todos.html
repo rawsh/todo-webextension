@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- META -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>TodoApp</title>
+
+        <!-- STYLES -->
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="style.css">
+        <script type="application/javascript" src="browser-polyfill.min.js"></script>
+    </head>
+    <body>
+        <h1 class="title">todos</h1>
+        <div class="container">
+            <input type="text" id="new-task" class="new-task" placeholder="Type here and ⏎"/>
+            <div class="task-list" id="task-list">
+            </div>
+        </div>
+
+        <script src="editor.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
