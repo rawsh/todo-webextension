@@ -39,7 +39,7 @@ function renderNthTodo(i, todos) {
 }
 
 function editText() {
-    text = this.innerHTML;
+    var text = this.innerHTML;
     this.setAttribute("contenteditable", true);
     this.focus();
 
@@ -49,7 +49,7 @@ function editText() {
         var key = e.which || e.keyCode;
         if (key === 13) { // 13 is enter
             text = this.innerHTML;
-            num = parseInt(this.dataset.number);
+            var num = parseInt(this.dataset.number);
             updateData(num, "text", text);
             this.setAttribute("contenteditable", false);
             this.oncontextmenu = function() {

@@ -8,7 +8,7 @@
     "manifest_version": 2,
     "name": "TodoApp",
     "description": "Quick and easy todo extension start page",
-    "version": "1.0",
+    "version": "1.1",
     "author": "Robert Washbourne",
     "chrome_url_overrides": {
         "newtab": "todos.html"

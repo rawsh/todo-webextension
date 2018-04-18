@@ -63,6 +63,11 @@ body {
 .task-span {
     font-size: 18px;
     padding: 10px;
+    outline: none;
+}
+
+.task-span[contenteditable="true"] {
+    outline: 1px dotted #333;
 }
 
 .new-task {
